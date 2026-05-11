@@ -1,4 +1,4 @@
-FROM node:slim AS precache
+FROM node:lts-slim AS precache
 
 RUN npm i -g pnpm
 
