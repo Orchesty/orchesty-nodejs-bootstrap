@@ -24,7 +24,7 @@ docker-down-clean: .env
 	$(DC) down -v
 
 install:
-	$(PACKAGE_MANAGER) install $(if $(filter pnpm,$(PACKAGE_MANAGER)),--config.confirmModulesPurge=false)
+	$(PACKAGE_MANAGER) install
 
 update:
 	$(PACKAGE_MANAGER) update
@@ -44,7 +44,7 @@ unit:
 	$(PACKAGE_MANAGER) run test
 
 install-docker:
-	$(DCW) pnpm install --config.confirmModulesPurge=false
+	$(DCW) pnpm install
 
 update-docker:
 	$(DCW) pnpm update
