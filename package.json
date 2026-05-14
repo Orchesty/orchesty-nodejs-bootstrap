@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "info@hanaboso.com",
   "dependencies": {
-    "@orchesty/nodejs-sdk": "^5.0.9"
+    "@orchesty/nodejs-sdk": "^5.0.10"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.5",
