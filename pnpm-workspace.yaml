@@ -1,6 +1,6 @@
 overrides:
-  eslint: $eslint
-  '@orchesty/nodejs-sdk': $@orchesty/nodejs-sdk
+  eslint: ^10.8.0
+  '@orchesty/nodejs-sdk': ^5.0.13
 
 allowBuilds:
   protobufjs: true
